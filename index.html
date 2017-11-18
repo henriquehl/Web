@@ -1,0 +1,182 @@
+<!--
+  Alunos: Henrique Meira N.º 11
+  Alunos: Gabriel Eduardo N.º07 
+ -->
+
+<html>
+<head>
+<style>
+body{
+  background-color: aquamarine;
+}
+table{
+  width: 100%;
+  align-content: center;
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.titulo{
+  text-align: center;
+  width: 100%;
+  text-decoration: underline;
+}
+.col1{
+  width: 33%;
+  float: left;
+}
+.inf_basicas{
+  width: 100%;
+  float: left;
+  height: 16%;
+}
+.forms{
+  width: 100%;
+  float: left;
+}
+.col{
+  width: 33%;
+  float: left;
+}
+
+</style>
+<title>CADASTRO</title>
+</head>
+<body>
+  <div >
+    <h1 class='titulo'>Cadastro</h1>
+    <h2>Informações Básicas:</h2>
+  </div>
+<div class="inf_basicas">
+  <div class='col1'>
+    <center>
+        <caption>Nome:</caption><br>
+        <input type='text'></input><br>
+        <caption>Sobrenome:</caption><br>
+        <input type='text'></input><br>
+    </center>
+  </div>
+  <div class='col1'>
+      <center>
+          <caption>Data de Nascimento:</caption><br>
+          <input type='text' value="dd/mm/aaaa"></input><br>
+          <caption>Telefone:</caption><br>
+          <input type='text'></input><br>
+      </center>
+  </div>
+  <div class='col'>
+    <center>
+      <caption>Sexo</caption><br>
+      <input type="radio" name='sexo' checked>Masculino</br>
+      <input type="radio" name='sexo'>Feminino</br>
+    </center>
+  </div>
+</div>
+<div class="forms">
+  <div class="col">
+    <form>
+        <h2>Endereço</h2>
+        <table>
+          <tr>
+            <td>Estado:</td>
+            <td>
+              <select>
+                <option selected>Escolher o estado</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>cidade:</td>
+            <td><input type='text'></td>
+          </tr>
+          <tr>
+            <td>Bairro:</td>
+            <td><input type='text'></td>
+          </tr>
+          <tr>
+            <td>Rua:</td>
+            <td><input type='text'></td>
+          </tr>
+          <tr>
+            <td>Número:</td>
+            <td><input type='text'></td>
+          </tr>
+        </table>
+    </form>
+  </div>
+  <div class="col">
+    <h2>Renda Mensal</h2>
+    <table>
+      <tr>
+        <td>Até R$ 1.000,00</td>
+        <td><input type="radio" name='sal'></td>
+      </tr>
+      <tr>
+        <td>De R$ 1.000,00 à R$ 2.000,00</td>
+        <td><input type="radio" name='sal'></td>
+      </tr>
+      <tr>
+        <td>De R$ 2.000,00 à R$ 3.000,00</td>
+        <td><input type="radio" name='sal'></td>
+      </tr>
+      <tr>
+        <td>De R$ 4.000,00 à R$ 5.000,00</td>
+        <td><input type="radio" name='sal'></td>
+      </tr>
+      <tr>
+        <td>De R$ 5.000,00 à R$ 6.000,00</td>
+        <td><input type="radio" name='sal'></td>
+      </tr>
+      <tr>
+        <td>De R$ 6.000,00 à R$ 7.000,00</td>
+        <td><input type="radio" name='sal'></td>
+      </tr>
+      <tr>
+        <td>Acima de R$ 7.000,00</td>
+        <td><input type="radio" name='sal'></td>
+      </tr>
+    </table>
+  </div>
+  <div class="col">
+    <h2>Escolaridade:</h2>
+    <table>
+      <tr>
+        <td>Fundamental Incompleto</td>
+        <td><input type="radio" name='scholl'></td>
+      </tr>
+      <tr>
+        <td>Fundamental Completo</td>
+        <td><input type="radio" name='scholl'></td>
+      </tr>
+      <tr>
+        <td>Ensino Médio Incompleto</td>
+        <td><input type="radio" name='scholl'></td>
+      </tr>
+      <tr>
+        <td>Ensino Médio Completo</td>
+        <td><input type="radio" name='scholl'></td>
+      </tr>
+      <tr>
+        <td>Ensino Superior Incompleto</td>
+        <td><input type="radio" name='scholl'></td>
+      </tr>
+      <tr>
+        <td>Ensino Superior Completo</td>
+        <td><input type="radio" name='scholl'></td>
+      </tr>
+      <tr>
+        <td>Nivel Superior Pós Graduação</td>
+        <td><input type="radio" name='scholl'></td>
+      </tr>
+      <tr>
+        <td colspan="2">Outro</td>
+      </tr>
+      <tr>
+        <td colspan="2"><input type='text'></input></td>
+      </tr>
+    </table>
+  </div>
+</div>
+</body>
+</html>
